@@ -20,8 +20,7 @@ app.use(cors({
       'http://localhost:3000',
       'http://localhost:3001',
       'http://localhost:3002',
-      'https://your-netlify-app-name.netlify.app', // Replace with your actual Netlify domain
-      'https://imageuploader-frontend.netlify.app', // Example - replace with your actual domain
+      'https://cloudeimage.netlify.app', 
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
